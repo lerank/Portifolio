@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Dev Full-Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Matheus - Dev Full-Stack</h1>
+        <p>Node.js | Express | JavaScript | HTML | CSS | Python | Desenvolvimento de Aplicações Web</p>
+        <button class="translate-btn" onclick="translatePortfolio()">Traduzir para Inglês</button>
+        <button class="translate-btn" onclick="translatePortfolioPT()">Traduzir para Português</button>
+    </header>
+    
+    <section id="apresentacao" class="apresentacao">
+        <h2>Sobre Mim</h2>
+        <p>
+            Sou um desenvolvedor Full-Stack com experiência em Node.js, Express, JavaScript, HTML, CSS, Python e Desenvolvimento de Aplicações Web. Minha paixão pela tecnologia me levou a criar soluções inovadoras que ajudam empresas a otimizar seus processos e oferecer uma experiência incrível aos usuários.
+            Já trabalhei na França e em Portugal como desenvolvedor web júnior, onde tive a oportunidade de aprimorar minhas habilidades em ambientes dinâmicos e desafiadores. Sou fluente em francês e possuo inglês e espanhol em nível intermediário, além de conhecimentos básicos em russo.
+            Ao longo da minha carreira, participei de projetos que me permitiram colaborar com equipes diversas e aprender novas tecnologias. Sou adepto de metodologias ágeis e valorizo a comunicação clara para alcançar os melhores resultados.
+            Neste portfólio, você encontrará alguns dos meus projetos mais relevantes, onde demonstro minha capacidade de criar aplicações escaláveis e responsivas. Estou sempre em busca de aprender e me manter atualizado em um setor em constante evolução.
+            Se você está procurando um desenvolvedor apaixonado e comprometido, sinta-se à vontade para entrar em contato!
+        </p>
+    </section>
+
+    <section id="especialidades">
+        <h2>Minhas Especialidades</h2>
+        <div class="especialidades-container">
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="lang-icon">
+                <p>Node.js</p>
+            </div>
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" class="lang-icon">
+                <p>Express</p>
+            </div>
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="lang-icon">
+                <p>JavaScript</p>
+            </div>
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="lang-icon">
+                <p>HTML</p>
+            </div>
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="lang-icon">
+                <p>CSS</p>
+            </div>
+            <div class="especialidade">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="lang-icon">
+                <p>Python</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+        <div class="idiomas-container">
+            <div class="idioma">
+                <img src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/2-bandeira-do-brasil.jpg" alt="Português" class="flag-icon">
+                <p>Português</p>
+            </div>
+            <div class="idioma">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1024px-Flag_of_France.svg.png" alt="Francês" class="flag-icon">
+                <p>Francês</p>
+            </div>
+            <div class="idioma">
+                <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/05/bandeira-estados-unidos.jpg" alt="Inglês" class="flag-icon">
+                <p>Inglês</p>
+            </div>
+            <div class="idioma">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKMz01edr85SGseM_wI_-k4xIkk1JND1mJA&s" alt="Espanhol" class="flag-icon">
+                <p>Espanhol</p>
+            </div>
+            <div class="idioma">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeGtDkzI2FhLuygH3vxXcffRAFOTiiPXfWug&s" alt="Russo" class="flag-icon">
+                <p>Russo</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projeto" onclick="window.open('https://github.com/lerank/MatheusDevProjects.github.io.git', '_blank')">
+            <h3>Gerenciador de Tarefas</h3>
+            <p>Aplicação de gerenciamento de tarefas utilizando Node.js, Express, MongoDB e EJS.</p>
+            <img src="https://via.placeholder.com/300x150" alt="Imagem do projeto Gerenciador de Tarefas">
+        </div>
+    </section>
+    
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5521990636576" target="_blank"><i class="fab fa-whatsapp fa-3x"></i></a>
+    </div>
+
+    <footer>
+        <p>Entre em contato: <a class="green-email" href="mailto:matheusprec735@hotmail.com">matheusprec735@hotmail.com</a></p>
+        <p>Telefone: <span class="whatsapp"><a href="tel:+5521990636576" class="phone-link">+55 21 99063-6576</a></span></p>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2c2c; /* Cor de fundo escura */
+    color: #f1f1f1; /* Texto claro */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o espaço entre o conteúdo e o footer */
+}
+
+header {
+    background-color: #1c1c1c; /* Header escuro */
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 20px 0;
+    text-align: center; /* Centraliza o título */
+}
+
+.apresentacao {
+    background-color: #333; /* Cor de fundo para apresentação */
+    color: #f1f1f1; /* Texto claro */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.apresentacao:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+#especialidades {
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.especialidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinha os quadrados no centro */
+}
+
+.especialidade {
+    background: #333; /* Cor de fundo para especialidades */
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 100px; /* Largura do quadrado */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.especialidade:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lang-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.idiomas-container {
+    display: flex;
+    justify-content: center; /* Centraliza os idiomas */
+    flex-wrap: wrap;
+}
+
+.idioma {
+    margin: 10px;
+    text-align: center;
+}
+
+.flag-icon {
+    width: 40px;
+    height: 30px;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 20px 0;
+}
+
+#projetos h2 {
+    margin-bottom: 20px; /* Dá um espaço entre o título e os projetos */
+    text-align: center; /* Centraliza o título */
+}
+
+.projeto {
+    background: #444; /* Cor de fundo para projetos */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 320px; /* Define uma largura para centralizar melhor */
+}
+
+.projeto:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366; /* Cor do WhatsApp */
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 4px 10px #25D366;
+    transition: transform 0.2s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #1c1c1c; /* Cor do footer */
+    text-align: center;
+    padding: 20px;
+}
+
+.green-email {
+    color: #4CAF50; /* Cor verde para o e-mail */
+    text-decoration: none;
+}
+
+.green-email:hover {
+    text-decoration: underline;
+}
+
+.translate-btn {
+    background-color: #007bff; /* Cor padrão do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s;
+}
+
+.translate-btn:hover {
+    background-color: #0056b3; /* Cor mais escura ao passar o mouse */
+}
+
+.phone-link {
+    color: #4CAF50; /* Verde claro, igual ao e-mail */
+}
